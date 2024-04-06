@@ -26,11 +26,11 @@ jobs:
     - uses: azure/login@v1
       with:
         #client-id: ${{ secrets.AZURE_CLIENT_ID }} 
-        client-id: $a8a43427-f4d4-4e5b-93be-40aacc40376a
+        client-id: a8a43427-f4d4-4e5b-93be-40aacc40376a
         #tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-        tenant-id: $59685cc6-cd33-4672-ac53-6c0f11651390
+        tenant-id: 59685cc6-cd33-4672-ac53-6c0f11651390
         #subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-        subscription-id: $aff02737-0087-4940-9ae7-0a36ff3106ba
+        subscription-id: aff02737-0087-4940-9ae7-0a36ff3106ba
         # creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       # Deploy Bicep file
